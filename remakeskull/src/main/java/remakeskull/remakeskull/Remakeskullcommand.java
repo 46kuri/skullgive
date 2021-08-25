@@ -41,7 +41,7 @@ public class Remakeskullcommand implements CommandExecutor {
                     Inventory inventory = p.getInventory();
                     int emptyslot = inventory.firstEmpty();
                     if (emptyslot == -1){
-                        p.sendMessage("対象のインベントリを空にしてください");
+                        p.sendMessage("インベントリを空にしてください");
                         return true;
                     }else{
                         inventory.addItem(item);
