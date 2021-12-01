@@ -1,6 +1,6 @@
 name: Remakeskull
 version: '${project.version}'
-main: remakeskull.remakeskull.Remakeskull
+main: com.github.sirokuri_.remakeskull.Remakeskull
 api-version: 1.12
 authors: [46kuri_]
 description: LGW pligin
